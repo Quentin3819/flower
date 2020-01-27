@@ -1,0 +1,296 @@
+*{
+    margin: 0px;
+}
+
+body {
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+#header {
+    background-image: url(../image/fdb.jpg);
+    height: 100vh;
+    width: 98.9vw;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "Flower_Font";
+    src: url('../font/WildFlowerBold.otf');
+}
+
+#flowerP {
+    font-family: "Flower_Font";
+    margin: 10px;
+    font-size: 200%;
+}
+
+#divHeader {
+    display: flex;
+    justify-content: space-between;
+    color: #528042;
+    position: fixed;
+    top: 0px;
+    z-index: 5;
+    width: 100%;
+    height: 45px;
+    
+}
+
+#divMenu {
+    display: flex;
+    margin-right: 10px;
+}
+
+#divMenu a {
+    padding: 1em;
+    color: #528042;
+}
+
+.active {
+    border-bottom: solid 2px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #52804265;
+    border: white dotted 2px;
+    font-size: 500%;
+    padding: 1%;
+    color: white;
+    padding-left: 12%;
+    padding-right: 12%;
+    font-family: 'Dancing Script', cursive;
+}
+
+#titreHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#aboutTitre {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    margin-top: 3%;
+    font-size: 300%;
+    color: #528042;
+}
+
+.container {
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.aboutText1 {
+    padding-left: 6%;
+    padding-right: 2%;
+
+
+}
+
+.aboutText2 {
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+.aboutText3 {
+    padding-right: 6%;
+    padding-left: 2%;
+}
+
+.sectionAbout {
+    margin-bottom: 5%;
+}
+
+.divLogoAbout {
+    color: #5280428c;
+    font-size: 300%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+#sloganSection {
+    background-image: url(../image/bg3.jpg);
+    background-size: cover;
+    width: 98.9vw;
+    height: 40vh;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sloganSection h3 {
+    text-align: center;
+    background-color: #52804265;
+    border: 3px dotted white;
+    font-size: 200%;
+    padding: 1%;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    padding: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#teamTitre {
+    margin-top: 20px;
+    text-align: center;
+    color: #528042;
+    font-size: 300%;
+    font-family: 'Courgette', cursive;
+}
+
+.identiterTeam img {
+    width: 300px;
+    height: 300px;
+    border-radius: 70%;
+    border: #528042 10px solid ;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.identiterTeam p {
+    text-align: center;
+    margin: 0px;
+
+}
+
+.ambitioni {
+    font-style: italic;
+    margin: 10px;
+}
+
+.divImgTeam{
+     text-align: center;
+     margin: 0px;
+     margin-bottom: 20px;
+
+}
+
+.nomTeamBold {
+    font-weight: bolder;
+    margin: 10px;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+
+}
+
+.logoTeam {
+    width: 270px;
+    height: 270px;
+    border-radius: 80%;
+    position: absolute;
+    bottom: 254px;
+    left: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.logoTeam i {
+    margin: 6px;
+    color: white;
+}
+
+.logoTeam:hover{
+    opacity: 1;
+    background-color: #528042ab;
+}
+
+#sectionSlider {
+    background-image: url(../image/bg2.jpg);
+    background-size: cover;
+    display: flex;
+    margin-top: 50px;
+}
+
+.glide__slide {
+    display: flex;
+    justify-content: center;
+}
+
+#sectionSlider img {
+    margin: 20px;   
+    border-radius: 20%;
+}
+
+#quamsDiv img {
+    height: 300px;
+    width: 300px;
+    padding: 1%;
+}
+
+#quamsDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#sectionQuams h3 {
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    color: #528042;
+    font-size: 300%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+#sectionContact {
+    background-color:#52804265;
+    height: 30vh;
+    border: white dotted 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sectionContact p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 0px;
+}
+
+#sectionContact div {
+    border: white dotted 3px;
+    padding: 1%;
+}
+
+@-webkit-keyframes bounce {
+    0% {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  
+    33% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      -webkit-transform: translate3d(0, -30px, 0);
+      transform: translate3d(0, -30px, 0);
+    }
+  
+    67% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      -webkit-transform: translate3d(0, -15px, 0);
+      transform: translate3d(0, -15px, 0);
+    }
+  
+    100% {
+      -webkit-transform: translate3d(0, -4px, 0);
+      transform: translate3d(0, -4px, 0);
+    }
+}
+    .contact {
+        animation: bounce 1.5s infinite linear normal;
+      }
+      
