@@ -35,7 +35,9 @@ body {
     height: 45px;
     
 }
-
+#burger {
+    opacity: 0;
+}
 #divMenu {
     display: flex;
     margin-right: 10px;
@@ -292,5 +294,70 @@ h1 {
 }
     .contact {
         animation: bounce 1.5s infinite linear normal;
-      }
-      
+        }
+        
+@media (max-width: 750px){
+    #burger {
+        opacity: 1;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    #divMenu a{
+        display: none;
+    }
+
+    #header{
+        width: 97.9vw;
+    }
+
+    #divDesTexte {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10%;
+    }
+
+    #divDesTexte{
+        text-align: center;
+    }
+
+    .identiterTeam {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .logoTeam{
+        bottom: 150px;
+    }
+
+    .identiterTeam img{
+        margin-bottom: 5px;
+    }
+
+    .identiterTeam p{
+        margin-bottom: 25px;
+    }
+
+    .logoTeam{
+        left: 183px;
+        bottom: 248px;
+    }
+
+    #quamsDiv img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sloganSection{
+        width: 97.9vw;
+    }
+
+    .glide__slide{
+        width: 97.9vw;
+
+    }
+}
